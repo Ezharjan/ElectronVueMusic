@@ -1,0 +1,12 @@
+{
+  "select_all": "Select all",
+  "unselect_all": "Select none",
+  "name": "Name",
+  "singer": "Artist",
+  "album": "Album",
+  "action": "Manage",
+  "time": "Length",
+  "lossless": "Lossless",
+  "high_quality": "High Quality",
+  "loding_list": "Loading the list..."
+}

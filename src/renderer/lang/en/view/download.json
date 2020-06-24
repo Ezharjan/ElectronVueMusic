@@ -1,0 +1,14 @@
+{
+  "select_all": "Select all",
+  "unselect_all": "Select none",
+  "name": "Name",
+  "progress": "Progress",
+  "status": "State",
+  "quality": "Quality",
+  "action": "Manage",
+  "all": "All",
+  "runing": "Downloading",
+  "paused": "Paused",
+  "error": "Error",
+  "finished": "Completed"
+}

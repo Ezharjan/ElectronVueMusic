@@ -1,0 +1,16 @@
+{
+  "select_all": "Select all",
+  "unselect_all": "Unselect all",
+  "name": "Name",
+  "singer": "Artist",
+  "album": "Album",
+  "action": "Manage",
+  "time": "Length",
+  "lossless": "SQ",
+  "high_quality": "HQ",
+  "no_item": "Search what I want to 😉",
+  "hot_search": "Top Searches",
+  "history_search": "History Searches",
+  "history_clear": "Clear History",
+  "history_remove": "Right click to remove this entry"
+}

@@ -1,0 +1,26 @@
+import leaderboard from './leaderboard'
+import lyric from './lyric'
+import songList from './songList'
+import musicSearch from './musicSearch'
+import { apis } from '../api-source'
+import hotSearch from './hotSearch'
+
+const tx = {
+  leaderboard,
+  songList,
+  musicSearch,
+  hotSearch,
+
+  getMusicUrl(songInfo, type) {
+    return apis('tx').getMusicUrl(songInfo, type)
+  },
+  getLyric(songInfo) {
+    // let singer = songInfo.singer.indexOf('、') > -1 ? songInfo.singer.split('、')[0] : songInfo.singer
+    return lyric.getLyric(songInfo.songmid)
+  },
+  getPic(songInfo) {
+    return apis('tx').getPic(songInfo)
+  },
+}
+
+export default tx
